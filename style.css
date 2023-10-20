@@ -1,0 +1,269 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Montserrat', sans-serif; 
+    margin: 0;
+    background-color:#f0bced;
+  
+
+}
+header {
+    height: 50px;
+    display: flex;
+    padding: 0 ;
+    padding-top: 20px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    width: 100vw;
+    left: 0;
+    z-index: 1;
+    background-color: rgba(193, 223, 240, 0.8);
+}
+main{
+  
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    padding: 10px 10px;
+}
+a {
+    text-decoration: none;
+    color: #6f92a0;
+    padding-right: 21px;
+}
+#home {
+    display: flex;
+    align-items: center;
+}
+.texts {
+display: flex;
+flex-direction: column;
+}
+
+.name{
+    color: #1114c8;
+    font-size: 30px;
+    font-weight: 500;
+    display: flex;
+}
+.name p {
+    color: #272626;
+    margin: 0;
+    margin-left: 15px;
+}
+.path {
+    color: #1114c8;
+    
+}
+hr{
+    height:2px;
+    border-width:0;
+    color: #1114c8;
+    background-color:#1114c8;
+    margin-bottom: 30px;
+}
+
+.contact-buttons{
+    padding: 5px 0;
+    text-align: center;
+    color: #1114c8;
+   
+    border: 2px solid #9b99eb;
+    width: 150px;
+}
+.introduction {
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    justify-content: space-around;
+}
+
+.hello1{
+    font-weight: 600;
+    font-size: 20px;
+}
+.hello-container{
+    width: 400px;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+  
+}
+.skill-card{
+    width: 140px;
+    height: 160px;
+    border: 1px solid #1114c8;
+}
+.skill-header{
+    padding: 10px 0;
+    border-bottom: 1px solid #1114c8;
+    text-align: center;
+    font-weight: 600;
+}
+.skill-details {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.hobby-img{
+    height: auto;
+    width: 400px;
+}
+.hobby-header{
+    font-size: 20px;
+    font-weight: 600;
+}
+.hobby-container{
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hobby-desc{
+    width: 30vw;
+}
+
+.lesson-container{
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+}
+.lesson-card{
+    border: 1px solid #1114c8;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
+.lesson-img{
+    width: 300px;
+    height: 180px;
+    object-fit: contain
+}
+.languages{
+    border-bottom: 1px solid #1114c8;
+}
+.lesson-header{
+    border-bottom: 1px solid #1114c8;
+    padding-bottom: 10px;
+}
+.visit{
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid #1114c8;
+    padding: 0;
+    color: black;
+}
+
+.contact-container{
+    width: 90vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.leftSide{
+    display: flex;
+    flex-direction: column;
+}
+.leftSide a{
+    color: black;
+    padding-top: 20px;
+}
+.copyright{
+    width: 90vw;
+    color: #737373;
+    text-align: center;
+}
+@media screen and (max-width: 480px) {
+    .body{
+        display: flex;
+        flex-direction: column;
+            flex-wrap: wrap;
+    } 
+}
+@media screen and (max-width: 480px) {
+    #home {
+        display: flex;
+        flex-direction: column;
+            flex-wrap: wrap;
+    } 
+}
+
+@media screen and (max-width: 480px) {
+   #lesson  {
+    display: flex;
+    flex-direction: column;
+        flex-wrap: wrap;
+    } 
+}
+@media screen and (max-width: 480px) {
+   .hobby-container {
+     display: flex;
+     flex-direction: column;
+         flex-wrap: wrap;
+     } 
+ }
+ @media screen and (max-width: 480px) {
+    .hobby-header {
+     display: flex;
+     flex-direction: column;
+         flex-wrap: wrap;
+     } 
+ }
+ @media screen and (max-width: 480px) {
+    .hobby-desc{
+     display: flex;
+     flex-direction: column;
+         flex-wrap: wrap;
+     } 
+ }
+ @media screen and (max-width: 480px) {
+    .contact-container {
+     display: flex;
+     flex-direction: column;
+         flex-wrap: wrap;
+     } 
+ }
+ @media screen and (max-width: 480px) {
+    .lesson-header {
+     display: flex;
+     flex-direction: column;
+         flex-wrap: wrap;
+     } 
+ }
+ @media screen and (max-width: 480px) {
+    .lesson-container{
+     display: flex;
+     flex-direction: column;
+         flex-wrap: wrap;
+     } 
+ }
+ @media screen and (max-width: 480px) {
+    .introduction{
+     display: flex;
+     flex-direction: column;
+         flex-wrap: wrap;
+     } 
+ }
+ @media screen and (max-width: 480px) {
+    .lesson-container{
+     display: flex;
+     flex-direction: column;
+         flex-wrap: wrap;
+     } 
+ }
